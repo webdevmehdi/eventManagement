@@ -1,17 +1,12 @@
 
-# FullCalendar React+Redux Example Project
-
-For complete instructions on how to initialize your build system, see the [FullCalendar React Docs &raquo;](https://fullcalendar.io/docs/react)
-
-**About this example:** the state for events is owned by a [Redux](https://redux.js.org/) store and reducer. This technique is more tedious to set up than the [simple technique](../react) but allows the state to be accessed when a FullCalendar component is not rendered.
+# EventManagement
 
 
 ## Installation
 
 ```bash
-git clone https://github.com/fullcalendar/fullcalendar-example-projects.git
-cd fullcalendar-example-projects/react-redux
-npm install
+git clone git@github.com:webdevmehdi/eventManagement.git
+yarn install
 ```
 
 
@@ -21,7 +16,7 @@ npm install
 npm run start # builds and opens a web browser
 
 # other commands:
-npm run build # builds files into dist/ directory
-npm run watch # same as build, but watches for changes
-npm run clean # start fresh
+yarn run build # builds files into dist/ directory
+yarn run watch # same as build, but watches for changes
+yarn run clean # start fresh
 ```
