@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+
+
+.member_layout_mid {
+  margin-top: 10px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 45%;
+  padding: 5px;
+  /*flex start to prevent elements from growing */
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.member_layout_bottom {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+ font-size: 12px;
+  font-weight: 600px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+
+.member_layout_top {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.task_section_main {
+  display: flex;
+  margin: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  background: rgb(65, 64, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 64, 68, 0.3981967787114846) 0%,
+    rgba(140, 71, 102, 0.04805672268907568) 0%,
+    rgba(124, 88, 120, 0.7259278711484594) 35%
+  );
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .memberlayout {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .member_layout_calendar {
+    background-color: white;
+  }
+
+  .member_layout_mid {
+    width: 400px;
+    margin: 10px;
+  }
+  .member_layout_left {
+    width: 400px;
+  }
+  .fiche_pfe_description {
+    display: flex;
+    overflow: auto;
+    margin-top: 10px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+  }
+}

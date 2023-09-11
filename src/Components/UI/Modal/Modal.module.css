@@ -1,0 +1,32 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-radius: 5px;
+  z-index: 650;
+  top: 24%;
+  transition: all 0.3s ease-out;
+  height: 400px;
+  width: 400px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .Modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 650;
+    transform: translateY(0px);
+    opacity: 1;
+    position: fixed;
+    top: 30%;
+    right: 40%;
+    transition: all 0.3s ease-out;
+    height: 400px;
+    width: 400px;
+  }
+}

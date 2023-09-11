@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.Navigation__item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px !important;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+.Navigation__item > h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation_item_title {
+  /* flex: 1; */
+  font-size: 20px !important;
+  margin-left: 10px;
+  font-weight: 300 !important;
+  padding: 10px !important;
+}
+.Navigation__item_icon {
+  color: #606060;
+  font-size: medium;
+}
+
+.Navigation__item:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

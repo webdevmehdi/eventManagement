@@ -1,0 +1,141 @@
+/* 
+.header__image {
+  object-fit: contain;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 70px;
+  box-shadow: 0 1px 2px white, inset 0 0 0 white;
+  margin-right: 25px;
+  margin-left: 25px;
+  align-items: center;
+}
+
+
+
+.header__search {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 35%;
+  color: gray;
+  background-color: #eef3f8;
+  border-radius: 5px;
+}
+.header__search > input {
+  margin: 2px;
+  outline: none;
+  border: none;
+  background: none;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header__left > img {
+  object-fit: contain;
+  height: 30px;
+  border-radius: 5px;
+} */
+
+/*  @media (min-width: 400px) {
+  .header {
+    min-width: 0%;
+  }
+}  */
+
+.header {
+  position: sticky;
+  top: 0;
+
+  z-index: 600;
+  background-color: lightgray;
+  padding: 5px;
+  flex-basis: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_mid > input {
+  margin: 2px;
+  outline: none;
+  border: none;
+  background: none;
+}
+.header_mid {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+
+  height: 25;
+  width: 40%;
+  color: gray;
+  background-color: #eef3f8;
+  border-radius: 5px;
+}
+
+.header_right {
+  display: flex;
+}
+.notifications-count {
+  position: absolute;
+  top: 0px;
+  right: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 640px) {
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+    /*     flex-basis: 0;
+ */
+  }
+  .header_right {
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+  }
+  .header_left {
+    margin-left: -40px;
+  }
+  .header_mid {
+    display: inline-block;
+    margin-top: 5px;
+    height: 30px;
+    width: 140px;
+    margin-left: -35px;
+    /*  padding: 5px; */
+    display: flex;
+    /*  height: 100%;
+    width: 40%; */
+  }
+}
+/* 
+ @media screen and (max-width: 768px) {
+  .header{
+    height:100%;
+    width:100%;}
+ 
+}  */

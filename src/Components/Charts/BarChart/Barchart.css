@@ -1,0 +1,46 @@
+.barchart {
+  width: 100%;
+  height: 300px;
+}
+
+.chart:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px){
+  .barchart {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+  }
+}
+
+/* .chart {
+   min-height:100%;
+   min-width:100%;
+   background: white;
+      transition: 0.3s;
+     
+  }
+  
+  .chart:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  } */
+
+/* 
+   .chart {
+    height:300px;
+    width:300px; */
+/*     width:60vw;
+ */ /*   background: white;
+ margin-top: 20px;
+ border-radius:10px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       transition: 0.3s;
+       font-size: 6px!important;
+  font-weight:300;
+      
+   }
+   
+   .chart:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   } */

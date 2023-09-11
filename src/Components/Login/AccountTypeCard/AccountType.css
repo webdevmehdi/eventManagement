@@ -1,0 +1,103 @@
+.accountTypecard {
+  margin: 25px;
+  width: 100px;
+  height: 140px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-out;
+  --bg-color: #ffd861;
+  --bg-color-light: #ffeeba;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(255, 215, 97, 0.48);
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid lightblue;
+  cursor: pointer;
+}
+.activeMod {
+  background-color: #ffd861;
+}
+.inactiveMod {
+  background-color: #fff;
+}
+.accountTypecard:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+.accountTypecard:hover .overlay {
+  transform: scale(4) translateZ(0);
+}
+/* 
+.accountTypecard:focus {
+  background: var(--bg-color);
+}
+.chooseAccountCircle:focus {
+  background: var(--bg-color);
+}
+.accountTypecard:focus p {
+  background: var(--bg-color);
+}
+ */
+.accountTypecard:hover p {
+  color: var(--text-color-hover);
+}
+.imageRole {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  height: 20px;
+}
+
+.accountTypecard:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px var(--box-shadow-color);
+  background: var(--bg-color);
+}
+.chooseAccountCircle:active {
+  background: var(--bg-color);
+}
+.accountTypecard:active p {
+  color: var(--text-color-hover);
+}
+.accountTypecard p {
+  font-size: 17px;
+  color: #4c5656;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+
+.chooseAccountCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  width: 70px;
+  position: absolute;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  top: 23px;
+  left: 15px;
+  z-index: 0;
+  transition: transform 0.3s ease-out;
+}

@@ -1,0 +1,15 @@
+.list_layout {
+  display: flex;
+  text-align: center;
+  flex: 0.5;
+}
+.list_layout > .card {
+  width: 99%;
+}
+
+@media (max-width: 768px) {
+  .list_layout {
+    width: 98%;
+  }
+  
+}

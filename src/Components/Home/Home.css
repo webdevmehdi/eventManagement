@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .header { */
+/*  position: sticky;
+  top: 0;
+  display: flex; */
+/*  min-width:0;
+  min-height:0; */
+/*  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1px solid lightgray;
+  background-color: lightgray;
+  z-index: 600; */
+/* } */
+
+.home_main {
+  display: block;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.sidebar_page {
+  flex: 0.2;
+}
+@media  (max-width:1120px) {
+  .home{
+      /* position is added to make motionbackdrop fit full heigh of window screen*/
+
+    position:relative;
+
+  }
+  
+}
+/* @media screen and (max-width: 868px) { */
+/*   .LoginPage {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 0px 0px rgba(217, 223, 250, 0.856);
+    border: 1px solid rgba(217, 223, 250, 0.856);
+  } */
+/* }
+ */

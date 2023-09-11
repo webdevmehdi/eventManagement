@@ -1,0 +1,9 @@
+.activeStatus {
+  background-color: #bf5bcd;
+  color: rgb(0, 0, 0);
+
+}
+.inactiveStatus {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}

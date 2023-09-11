@@ -1,0 +1,38 @@
+.progression_task{
+    display: flex;
+border-bottom : 1px solid lightgray;
+padding : 5px 5px ;
+margin-bottom: 5px;
+align-items: center;
+justify-content: center;
+width: 800px;
+
+}
+.progression_task_right{
+flex: 0.9;
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+.progression_task_left{
+flex: 0.1;
+}
+
+.progression_task_left > img {
+    object-fit: contain;
+    width: 80px;
+    border-radius: 5px;
+}
+.progression_sujet{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+}
+.progression_sujet_label{
+font-size: larger;
+font-weight: 600;}
+.progression_sujet_sujet{
+margin-left: 10px;
+
+}

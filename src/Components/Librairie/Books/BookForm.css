@@ -1,0 +1,12 @@
+.BookForm {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+     height: 96%;
+     width: 400px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }

@@ -1,0 +1,21 @@
+
+
+.Progression_ticket {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 10px;
+  
+   
+}
+.Progression_ticket_description{
+    margin-left: 10px;
+    margin-top: 10px;
+
+    min-width: 100px;
+    min-height: 150px;
+}
+.Progression_ticket_label{
+    font-size: small;
+    font-weight: 300;
+}

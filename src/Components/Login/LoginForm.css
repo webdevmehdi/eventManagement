@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f4f8;
+}
+
+.loginpage_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  width: 415px;
+  padding: 20px;
+}
+
+.login__form_img {
+  height: 35vh;
+}
+.login_register {
+  cursor: pointer;
+  color: blueviolet;
+}
+.Form_Title {
+  font-family: "Dancing Script", cursive;
+}
+@media screen and (min-width: 768px) {
+  .LoginPage {
+    height: -webkit-fill-available;
+  }
+
+  .loginpage_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    width: 500px;
+    padding: 20px;
+  }
+
+  .loginpage_form > input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .login__form_img {
+    height: 40vh;
+    object-fit: cover;
+  }
+  .loginpage_form_img > img {
+    align-self: flex-end;
+  }
+  .login__form_button {
+    align-self: center !important;
+  }
+  .login__form_button > button {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .login__form_registernow {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.forum {
+  display: flex;
+  background-color: #f3f2ef;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forum_main {
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .forum_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+  }

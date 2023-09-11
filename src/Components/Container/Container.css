@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&display=swap");
+
+.overall_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Goblin One", cursive;
+  border-bottom: 1px solid lightgrey;
+}
+
+.overall_header_logo > img {
+  height: 50px;
+  object-fit: contain;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  width: 140px;
+  box-shadow: 0 0 0 0.5px rgb(50 50 93 / 17%), 0 2px 5px 0 rgb(50 50 93 / 10%),
+    0 1px 1.5px 0 rgb(0 0 0 / 7%), 0 1px 2px 0 rgb(0 0 0 / 8%),
+    0 0 0 0 transparent;
+  cursor: pointer;
+}
+
+.overall_header_logo > img:hover {
+  height: 50px;
+  object-fit: contain;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  width: 140px;
+  box-shadow: 0px 0px 0px 0px rgba(217, 223, 250, 0.856);
+}

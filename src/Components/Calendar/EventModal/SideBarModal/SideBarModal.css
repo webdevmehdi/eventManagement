@@ -1,0 +1,38 @@
+.SideBarModal {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* position: fixed; */
+  /* top: 80%; */
+  /* right: 1%; */
+  width: 97%;
+  height: 34%;
+  border: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  padding: 10px;
+
+}
+
+.participant {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+}
+
+@media only screen and (min-width:768){
+  .SideBarModal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 53%;
+    right: 35%;
+    width: 38%;
+    height: 19%;
+    padding: 10px;
+    z-index: 650;
+
+}
+}

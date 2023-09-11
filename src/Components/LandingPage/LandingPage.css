@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.mainpage {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+.landingpage_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.imageRendezVous {
+  width: 73%;
+  position: absolute;
+  top: 162px;
+  right: -18px;
+}
+.sloganSection {
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(
+    265deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(41, 75, 207, 0.13209033613445376) 43%,
+    rgba(233, 233, 233, 1) 84%
+  ); */
+  height: 605px;
+  width: 100%;
+  padding: 20px;
+  z-index: 850;
+  justify-content: space-evenly;
+}
+.landingpage_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sloganPhrase {
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(0, 0, 0);
+  font-size: 1.125rem;
+  line-height: 2;
+  font-weight: 500;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  width: 250;
+}
+.firstdiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 1200px;
+  width: 100%;
+}
+.seconddiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+.thirddiv {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 48px;
+  flex-direction: column;
+  width: auto;
+  min-width: 450px;
+}
+.slogan {
+  font-size: 5.625rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(0, 0, 0);
+  max-width: 450px;
+}
+
+.landingpage_logo > img {
+  height: 50px;
+  object-fit: contain;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  width: 140px;
+  cursor: pointer;
+}
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-xlarge {
+  font-size: 30px;
+}
+/* .btn-primary {
+  color: white;
+  background-color: #1d81d8;
+  border-color: #779ab8; /*set the color you want here*/
+/* } */
+/* .btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: rgb(201, 99, 99);
+  border-color: #285e8e;                                   /*set the color you want here*/
+/* } */
+
+.landingpage_singup {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+.landingpage_login {
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.libraryPic {
+  position: absolute;
+  top: 758px;
+  right: 0;
+}
+/* .image_landing_page > img {
+  box-shadow: 0 0 0 0.5px rgb(50 50 93 / 17%), 0 2px 5px 0 rgb(50 50 93 / 10%),
+    0 1px 1.5px 0 rgb(0 0 0 / 7%), 0 1px 2px 0 rgb(0 0 0 / 8%),
+    0 0 0 0 transparent;
+  object-fit: contain;
+  height: 700px;
+} */
+
+@media only screen and (min-width: 480px) {
+  .sloganSection {
+    font-family: "Dancing Script";
+    height: auto;
+    width: auto;
+  }
+
+  .landingpage_header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+  }
+  .sloganPhrase {
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(0, 0, 0);
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    width: 250;
+  }
+  .landingpage_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 89.7vh;
+  }
+ .slogan {
+    font-size: 5.625rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(0, 0, 0);
+    max-width: 450px;
+  }
+
+  .landingpage_logo > img {
+    height: 50px;
+    object-fit: contain;
+    margin: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    width: 140px;
+    cursor: pointer;
+  }
+  /*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+  .btn-xlarge {
+    font-size: 30px;
+  }
+  /* .btn-primary {
+    color: white;
+    background-color: #1d81d8;
+    border-color: #779ab8; /*set the color you want here*/
+  /* } */
+  /* .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(201, 99, 99);
+    border-color: #285e8e;                                   /*set the color you want here*/
+  /* } */
+
+  .landingpage_singup {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+  }
+  .landingpage_login {
+    margin: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  .image_landing_page > img {
+    box-shadow: 0 0 0 0.5px rgb(50 50 93 / 17%), 0 2px 5px 0 rgb(50 50 93 / 10%),
+      0 1px 1.5px 0 rgb(0 0 0 / 7%), 0 1px 2px 0 rgb(0 0 0 / 8%),
+      0 0 0 0 transparent;
+    object-fit: contain;
+    height: 700px;
+  }
+  .imageRendezVous {
+    width: 45%;
+    position: static;
+  }
+  .libraryPic {
+    width: 25%;
+    position: static;
+  }
+}
+/* @media screen and (max-width: 992px) {
+  .landingpage_main {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .firstdiv {
+    padding-top: 61.5385px;
+    padding-bottom: 61.5385px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .firstdiv {
+    padding-top: 66.6667px;
+    padding-bottom: 66.6667px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .firstdiv {
+    padding-top: 66.6667px;
+    padding-bottom: 66.6667px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .thirddiv {
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .thirddiv {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    flex-basis: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slogan {
+    max-width: 50%;
+    width: 100%;
+    padding-top: 48px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slogan {
+    max-width: 50%;
+    width: 100%;
+    padding-top: 48px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slogan {
+    font-size: 3.125rem;
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .slogan {
+    font-size: 5rem;
+    line-height: 1;
+  }
+} */
+/* 
+@media screen and (max-width: 768) {
+  .landingpage_main {
+    height: 50vh !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .landingpage_main {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+} */
